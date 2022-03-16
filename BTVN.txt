@@ -1,0 +1,76 @@
+
+#include <math.h> 
+using  namespace  std ; 
+int  main () 
+{ 
+	int  n ; 
+	cout  <<  " \ n Nhap so:" ; 
+	làm  { 
+		cin  >>  n ; 
+	if  ( n  <  1 || n > 7 )  { 
+	 cout  <<  " \ n Nhap Lai \ n:" ; 
+		}
+		
+	}  while  ( n  <  1 || n > 7 ); 
+    if ( n == 1 ) 
+	cout << " \ n Hôm nay là Thứ Hai" << endl ; 
+	else  if ( n == 2 ) 
+	cout << " \ n Hôm nay là Thứ Ba" << endl ; 
+	else  if ( n == 3 ) 
+	cout << " \ n Hôm nay là Thứ Tư" << endl; 
+	else  if ( n == 4 ) 
+	cout << " \ n Hôm nay là Thứ Năm" << endl ; 
+	else  if ( n == 5 ) 
+	cout << " \ n Hôm nay là Thứ Sáu" << endl ; 
+	else  if ( n == 6 ) 
+	cout << " \ n Hôm nay là Thứ Bảy" << endl ; 
+	else  if ( n == 7 ) 
+	cout<< " \ n Hôm nay là Chủ nhật" << endl ; 
+	trả về  0 ; 
+}
+#include <iostream> 
+using  namespace  std ; 
+int  main ( int  argc ,  char  * argv []) 
+{ 
+	int  n , s ; 
+	cout << "Nhap so KW dien tieu thu:" ; 
+	cin >> n ; 
+	if ( n  >  0 && n  <  100 ) { 
+       s =  n  * 2000 ;  
+       } 
+	else  if ( n  >  101 && n< 200 ) { 
+	   s =  n  * 2500 ; 
+	   }  
+    else  if ( n  >  201  &&  n  <  300 ) { 
+	   s =  n  * 3000 ; 
+	   } 
+	else  if ( n > 300 ) { 
+	   s =  n  * 5000 ; 
+	   }  
+	   cout << " \ n So tien dien tieu thu phai tra:" << s << endl ; 
+	return  0 ;
+}
+#include <iostream> 
+using  namespace  std ; 
+int  main () { 
+	int  n , s = 1 ; 
+	cout << "nhap n:" ; 
+	cin >> n ; 
+	for ( int  i = 1 ; i <= n ; i ++ ) { 
+		s = s * ( 2 * i ); 
+		} 
+	cout << "Tich bang:" << s << endl ;
+	return  0 ; 
+}
+#include <iostream.h>
+int main(){
+	int n;
+	cout<< " nhap n: ";
+	cin>>n;
+ for(int i=1; i<=n;i++){
+	for(int j=i; j<=n;j++)
+	cout<<"*";
+	cout<<endl;
+	}
+	return 0;
+}
